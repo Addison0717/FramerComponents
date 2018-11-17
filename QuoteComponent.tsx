@@ -20,7 +20,7 @@ function error(e) {
 export class Quote extends React.Component<Props> {
   // Set default properties
   static defaultProps = {
-    height: 375,
+    height: 225,
     width: 375,
     img: "https://uinames.com/api/photos/male/17.jpg",
     main: "Lorem Ipsum",
