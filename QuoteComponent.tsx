@@ -85,16 +85,18 @@ export class Quote extends React.Component<Props> {
     }
 }
 
+
 // let darkText = this.props.dark ? "white" : "black";
 // let darkBorder = this.props.dark ? "2px solid black" : "2px solid white";
+
 
 const divStyle: React.CSSProperties = {
     padding: "20px",
     width: "100%",
     height: "100%",
     textAlign: "center",
-    color: "black"
-    // color: darkText
+    color: "black",
+    // color: darkText,
 };
 
 const spanStyle: React.CSSProperties = {
