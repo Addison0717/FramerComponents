@@ -118,6 +118,7 @@ const quoteSVGStyle: React.CSSProperties = {
   position: "absolute",
   left: "50%",
   top: "30px",
+  objectFit: "cover",
   border: "2px solid white",
   width: "25px",
   height: "25px",
